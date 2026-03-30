@@ -1,26 +1,32 @@
-# Weather_ETL_ML 🌦️
+# Weather ETL & ML Pipeline
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/anishachada667-rgb/Weather_ETL_ML)](https://github.com/anishachada667-rgb/Weather_ETL_ML)
+## Overview
+Weather ETL & ML Pipeline automates the collection, transformation, and analysis of hourly weather data.
+The pipeline pulls data from public APIs, cleans and transforms it, stores it in CSV format, 
+and performs simple machine learning to predict temperature trends.
 
-## Project Overview
-**Weather_ETL_ML** is a sample project demonstrating an end-to-end **ETL pipeline** for weather data, with a small **ML feature** to predict temperature trends. This project showcases **data engineering** and **AI/ML integration** skills.
+**Key Features:**
+- Automated ETL pipeline using Python & Pandas
+- Feature engineering for ML model inputs
+- Simple ML model for temperature trend prediction
+- Data visualization with Matplotlib/Seaborn
+- CSV output for further analysis or reporting
 
-## Features
-- Extract, transform, and load (ETL) weather data
-- Data preprocessing and cleaning
-- Feature engineering for ML models
-- Simple ML model to predict temperature trends
-- Data visualization of results
+## Architecture
+Weather API
+│
+▼
+Python ETL Script → Clean/Transform Data
+│
+▼
+CSV / DataFrame → ML Feature Engineering
+│
+▼
+Simple ML Model → Temperature Trend Prediction
 
-## Technologies Used
-- **Python:** pandas, numpy, scikit-learn, matplotlib  
-- **ETL Tools (simulated):** PySpark, Azure Data Factory  
-- **Version Control:** Git & GitHub  
-- **Visualization:** Power BI / Excel  
+## Setup Instructions
 
-## Setup & Run
-1. Clone the repository:
+1. Clone the repository
    ```bash
    git clone https://github.com/anishachada667-rgb/Weather_ETL_ML.git
+   cd Weather_ETL_ML
