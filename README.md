@@ -28,37 +28,3 @@ The **Weather ETL & ML Pipeline** automates the collection, transformation, and 
 ```bash
 git clone https://github.com/anishachada667-rgb/Weather_ETL_ML.git
 cd Weather_ETL_ML
-
-Project Workflow
-
-Weather API
-    │
-    ▼
-Python ETL Script
-    │
-    ▼
-Clean & Transform Data
-    │
-    ▼
-CSV / DataFrame
-    │
-    ▼
-ML Feature Engineering
-    │
-    ▼
-Simple ML Model
-    │
-    ▼
-Temperature Trend Prediction
-
-Metrics Highlights
-ETL pipeline runs fully automatically for hourly data
-ML model predicts temperature trends with reasonable accuracy
-Data saved in CSV for further analytics or reporting
-
-Future Enhancements
-Add real-time streaming data ingestion
-Implement advanced ML models for better predictions
-Add interactive visualizations in dashboards
-Incorporate cloud storage (AWS S3 / Azure Blob)
-Schedule pipeline with Airflow or Prefect for automation
