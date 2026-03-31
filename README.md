@@ -14,6 +14,22 @@ The **Weather ETL & ML Pipeline** automates the collection, transformation, and 
 
 ---
 
+## Temperature Prediction Plot
+
+![Temperature Prediction](temperature_plot.png)
+
+## Metrics Highlights
+- ETL pipeline runs fully automatically for hourly data
+- ML model predicts temperature trends with reasonable accuracy
+- Data saved in CSV for further analytics or reporting
+
+## Future Enhancements
+- Add real-time streaming data ingestion
+- Implement advanced ML models for better predictions
+- Add interactive visualizations in dashboards
+- Incorporate cloud storage (AWS S3 / Azure Blob)
+- Schedule pipeline with Airflow or Prefect for automation
+
 ## Tech Stack
 - **Python** – Data collection, ETL, and ML  
 - **Pandas** – Data manipulation and cleaning  
