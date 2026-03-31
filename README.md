@@ -1,32 +1,64 @@
 # Weather ETL & ML Pipeline
 
 ## Overview
-Weather ETL & ML Pipeline automates the collection, transformation, and analysis of hourly weather data.
-The pipeline pulls data from public APIs, cleans and transforms it, stores it in CSV format, 
-and performs simple machine learning to predict temperature trends.
+The **Weather ETL & ML Pipeline** automates the collection, transformation, and analysis of hourly weather data. The pipeline pulls data from public APIs, cleans and transforms it, stores it in CSV format, and performs simple machine learning to predict temperature trends.
 
-**Key Features:**
-- Automated ETL pipeline using Python & Pandas
-- Feature engineering for ML model inputs
-- Simple ML model for temperature trend prediction
-- Data visualization with Matplotlib/Seaborn
-- CSV output for further analysis or reporting
+---
 
-## Architecture
-Weather API
-│
-▼
-Python ETL Script → Clean/Transform Data
-│
-▼
-CSV / DataFrame → ML Feature Engineering
-│
-▼
-Simple ML Model → Temperature Trend Prediction
+## Key Features
+- Automated ETL pipeline using Python & Pandas  
+- Feature engineering for ML model inputs  
+- Simple ML model for temperature trend prediction  
+- Data visualization with Matplotlib/Seaborn  
+- CSV output for further analysis or reporting  
+
+---
+
+## Tech Stack
+- **Python** – Data collection, ETL, and ML  
+- **Pandas** – Data manipulation and cleaning  
+- **Scikit-learn** – Simple ML model  
+- **Matplotlib / Seaborn** – Data visualization  
+- **CSV** – Data storage  
+
+---
 
 ## Setup Instructions
+1. Clone the repository:  
+```bash
+git clone https://github.com/anishachada667-rgb/Weather_ETL_ML.git
+cd Weather_ETL_ML
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/anishachada667-rgb/Weather_ETL_ML.git
-   cd Weather_ETL_ML
+Project Workflow
+
+Weather API
+    │
+    ▼
+Python ETL Script
+    │
+    ▼
+Clean & Transform Data
+    │
+    ▼
+CSV / DataFrame
+    │
+    ▼
+ML Feature Engineering
+    │
+    ▼
+Simple ML Model
+    │
+    ▼
+Temperature Trend Prediction
+
+Metrics Highlights
+ETL pipeline runs fully automatically for hourly data
+ML model predicts temperature trends with reasonable accuracy
+Data saved in CSV for further analytics or reporting
+
+Future Enhancements
+Add real-time streaming data ingestion
+Implement advanced ML models for better predictions
+Add interactive visualizations in dashboards
+Incorporate cloud storage (AWS S3 / Azure Blob)
+Schedule pipeline with Airflow or Prefect for automation
